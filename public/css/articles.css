@@ -1,0 +1,178 @@
+/* MindCourager - Articles
+....................................................................................*/
+
+p {
+	margin-bottom: 15px;
+	padding: 5px 15px 5px 15px;
+}
+
+li {
+	list-style: none;
+	display: block;
+}
+blockquote {
+	margin: 0 20px 0 20px;
+	font-size: 14px;
+}
+.anchor, .anchor:hover {
+	color: white;
+}
+
+.text_box {
+	padding: 10px 30px 5px 30px;
+	font-size: 1em;
+}
+.articlepage_container {
+	margin-top: 1%;
+}
+
+.article_box {
+	padding: 0px 0px 0px 0px;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+.header_for_article {
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	background-color: #4267b2;
+	position: relative;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article_heading {
+	color: white;
+	font-size: 1.5em;
+	padding: 0% 5% 0% 5%;
+	margin: 0;
+}
+.article-image {
+	padding: 15px 15px 15px 15px;
+}
+
+.button_support {
+background: orange;
+padding: 5px 5px 5px 5px;
+text-align: center;
+font-size: 1.5em;
+}
+.button_contradict {
+background: #4267b2;
+padding: 5px 5px 5px 5px;
+text-align: center;
+font-size: 1.5em;
+}
+
+
+.source_img_1 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.source_img_2 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.panel-default .panel-heading {
+	background-color: #4267b2;
+	color: white;
+}
+
+.panel-default .sources_heading {
+	margin-top: 30px;
+}
+
+.panel-default .sources_body {
+	background-color: orange;
+}
+
+.panel-title {
+font-size: 1.5em;
+}
+
+/* Media Queries ....................................................
+....................................................................*/
+
+@media screen and (min-width: 480px) { 
+
+.header_for_article {
+	padding: 20px 20px 20px 20px;
+	}
+.article_heading {
+	font-size: 1.7em;
+}
+.article-image {
+	width: 80%;
+}
+
+.source_img_1 {
+	width: 30%;
+	float: left;
+}
+
+.source_img_2 {
+	width: 50%;
+	float: left;
+}
+
+p {
+		font-size: 1.3em;
+		padding: 5px 10px 5px 10px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+.articlepage_container {
+	margin-top: 10%;
+}
+
+.article_heading {
+	font-size: 2em;
+}
+.posts_heading {
+	color: white;
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.3em;
+	padding: 5px 10px 5px 10px;
+  }
+} 
+
+
+@media screen and (min-width: 992px) { 
+
+.articlepage_container {
+	margin-top: 10%;
+}
+.article_heading {
+	font-size: 2.2em;
+}
+p {
+		font-size: 1.4em;
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.articlepage_container {
+	margin-top: 7%;
+}
+
+.article_heading {
+	font-size: 2.4em;
+}
+
+	p {
+		font-size: 1.5em;
+		padding: 15px 15px 15px 15px;
+	}
+}
