@@ -1,0 +1,62 @@
+/* MindCourager - Home Page
+....................................................................................*/
+
+.about_container {
+	margin-top: 5%;
+}
+
+
+.about-box {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+}
+
+#courager {
+	font-style: italic;
+}
+
+.about-box legend {
+	font-size: 2.5em;
+}
+.about-box p {
+	font-size: 1.8em;
+}
+
+
+@media screen and (min-width: 768px) { 
+
+.about_container {
+	margin-top: 14%;
+}
+.about-box {
+	padding-left: 0;
+}
+}
+
+.article-box {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+}
+
+
+@media screen and (min-width: 768px) { 
+.about_container {
+	margin-top: 14%;
+}
+.about-box {
+	padding-left: 0;
+}
+@media screen and (min-width: 992px) { 
+
+.about_container {
+	margin-top: 16%;
+	}
+}
+@media screen and (min-width: 1200px) { 
+	.about_container {
+	margin-top: 8%;
+}
+}
+
